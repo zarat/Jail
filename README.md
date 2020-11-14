@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 namespace InterOp
 {
 
-    class Program
+    class Program 
     {
 
         #region DllImports
