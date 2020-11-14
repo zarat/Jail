@@ -33,8 +33,6 @@ namespace InterOp
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern void interpret();
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
-        static extern int Foo(StringBuilder buffer, int capacity);
-        [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern void setIndex(int index);
 
         #endregion
@@ -74,7 +72,7 @@ __declspec(dllimport) void setIndex(int index);
 __declspec(dllimport) void setVar(char *name, char *type, char *value);    
 __declspec(dllimport) int getInt(char *name);    
 __declspec(dllimport) double getDouble(char *name);    
-__declspec(dllimport) void getString(char *name, char *buffer, int n);    
+__declspec(dllimport) void getString(char *name, char *buffer, int len);    
 __declspec(dllimport) char* getObject(char *name);    
 __declspec(dllimport) void interpretCode(char *code);    
 __declspec(dllimport) void interpret();
