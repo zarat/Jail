@@ -48,8 +48,6 @@ namespace InterOp
             setVar("b", "int", "1984");
             setVar("c", "double", "3.14159");
 
-            setIndex(interpreter);
-
             string code = "a += '!'; b = b * 2; c += 0.345;";
             interpretCode(code);
 
@@ -84,9 +82,6 @@ __declspec(dllimport) void interpret();
 int main() {
     
     int interpreter = Jail();
-    
-    // optional
-    setIndex(interpreter);
     
     setVar("a", "string", "Hello, world");
     setVar("b", "int", "1984");
