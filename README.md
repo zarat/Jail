@@ -20,16 +20,15 @@ namespace InterOp
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern int Jail();
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
-        public static extern void setVar([MarshalAs(UnmanagedType.LPStr)] string name, [MarshalAs(UnmanagedType.LPStr)] string type, [MarshalAs(UnmanagedType.LPStr)] string value);
+        public static extern void setVar(string name, string type, string value);
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
-        public static extern int getInt([MarshalAs(UnmanagedType.LPStr)] string name);
+        public static extern int getInt(string name);
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
-        public static extern double getDouble([MarshalAs(UnmanagedType.LPStr)] string name);
+        public static extern double getDouble(string name);
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
-        [return: MarshalAs(UnmanagedType.LPStr)]
         public static extern void getString(string name, StringBuilder buffer, int len);
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
-        public static extern void interpretCode([MarshalAs(UnmanagedType.LPStr)] string code);
+        public static extern void interpretCode(string code);
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern void interpret();
         [DllImport("jail.dll", CallingConvention = CallingConvention.Cdecl)]
