@@ -45,8 +45,7 @@ namespace InterOp
             setVar("b", "int", "1984");
             setVar("c", "double", "3.14159");
 
-            string code = "a += '!'; b = b * 2; c += 0.345;";
-            interpretCode(code);
+            interpretCode("a += '!'; b = b * 2; c += 0.345;");
 
             StringBuilder a = new StringBuilder(128);
             getString("a", a, a.Capacity);
@@ -83,10 +82,8 @@ int main() {
     setVar("a", "string", "Hello, world");
     setVar("b", "int", "1984");
     setVar("c", "double", "3.14159");  
-    
-    const char *code = "a += '!'; b = b * 2; c += 0.345;";      
-    interpretCode(strdup(code));
-    delete [] code;
+         
+    interpretCode("a += '!'; b = b * 2; c += 0.345;");
             
     char *a = (char *)malloc(128); //new char[128];
     getString("a", a, 128); 
