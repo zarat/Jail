@@ -6,3 +6,4 @@ Just another interpreted language. Please visit the [Wiki](https://github.com/za
 * Integers as binary, hex and oct
 * Object orientation
 * Embeddable
+* Extendable
