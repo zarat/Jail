@@ -9,7 +9,7 @@ Just another interpreted language. Please visit the [Wiki](https://github.com/za
 
 A small example
 ```Javascript
-class Example = {
+class Example {
 
     name: "Jail example",
     version: 1.0,
