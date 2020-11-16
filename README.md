@@ -2,4 +2,4 @@
 
 Just another interpreted language.
 
-Please visit the [Wiki](Wiki) for more information.
+Please visit the [Wiki](https://github.com/zarat/Jail/wiki) for more information.
