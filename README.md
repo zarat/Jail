@@ -6,6 +6,7 @@ Just another interpreted language. Please visit the [Wiki](https://github.com/za
 * Object orientated
 * Embedable
 * Extendable
+* sandbox execution
 
 A small example
 ```Javascript
