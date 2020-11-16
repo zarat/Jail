@@ -5,6 +5,4 @@ Just another interpreted language. Please visit the [Wiki](https://github.com/za
 ## Updates
 * Object orientated
 * Embedable
-
-## Planned
 * Extendable
