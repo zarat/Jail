@@ -5,7 +5,6 @@ Just another interpreted language. Please visit the [Wiki](https://github.com/za
 ## Features
 * Object orientated
 * Extendable
-* cloud ready
 
 A small example
 ```Javascript
