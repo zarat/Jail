@@ -7,6 +7,7 @@ Just another interpreted language. Please visit the [Wiki](https://github.com/za
 * Extendable
 * Embedable
 * sandbox execution
+* cloud ready
 
 A small example
 ```Javascript
