@@ -20,7 +20,11 @@ class Example {
 
 };
 
+var func = function() {
+    return 2;
+};
+
 var ex = new Example();
-ex.version = 2.0;
+ex.version = func();
 ex.debug();
 ```
