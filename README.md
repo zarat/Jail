@@ -1,6 +1,6 @@
 # Jail
 
-Just another interpreted language designed for the cloud.
+Just another interpreted language.
 
 * Object orientated
 * Extendable
