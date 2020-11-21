@@ -1,3 +1,3 @@
 # Jail
 
-Just another interpreted language. Please visit the [Wiki](https://github.com/zarat/Jail/wiki) for more information.
+Just another interpreted language. Please visit the [Docs](https://jail.lima-city.at) for more information.
