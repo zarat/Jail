@@ -1,15 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <string>
-#include <stdexcept>
 #include <vector>
 #include <set>
 #include <map>
-#include <cmath>
-#include <cstring>
-#include <cctype>
-#include <iomanip>
-#include <sstream>
 #include <string.h>
 
 // terminals
