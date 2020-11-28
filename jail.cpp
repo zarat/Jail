@@ -30,7 +30,7 @@
 #define LT "LT"
 #define GT "GT"
 #define LEQ "LEQ"
-#define GEQ "GEQ" 
+#define GEQ "GEQ"
 #define POW "POW"
 #define AND "AND"
 #define OR "OR"
