@@ -1,3 +1,3 @@
 # Jail
 
-Just another interpreted language. Take jail.cpp as a template to create your own!
+Just another interpreted language. Visit [the interpreter tutorial](https://github.com/zarat/Interpreter) to create your own!
