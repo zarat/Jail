@@ -27,4 +27,4 @@ var t = new Test("Hello world");
 t.Show();
 ```
 
-#Update: Port to linux
+# Update: Linux version is coming soon
