@@ -26,5 +26,3 @@ var t = new Test("Hello world");
 
 t.Show();
 ```
-
-# Update: Linux version is coming soon
