@@ -15,8 +15,6 @@ int main(int argc, char **argv) {
     
     interpreter.addNative("function print(str)", print, &interpreter);
 
-    registerString(&interpreter);
-
     std::ifstream file(argv[1]);
     std::string code, line;
     while (std::getline(file, line))
