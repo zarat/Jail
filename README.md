@@ -7,10 +7,6 @@ JAIL is a [general purpose scripting language](https://en.wikipedia.org/wiki/Gen
  * Object oriented
  * Extendable
  
-## Todo
- * Function overloading
- * Private variables and functions
- 
 ## Example
 ```Javascript
 class Test {
