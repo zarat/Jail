@@ -7,7 +7,7 @@ JAIL is a [general purpose scripting language](https://en.wikipedia.org/wiki/Gen
  * Object oriented
 
 ## Coming soon
- * A static library to write your own extensions
+ * Framework to write extensions
  
 ## Example
 ```Javascript
