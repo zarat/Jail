@@ -27,3 +27,12 @@ var t = new Test("Hello world");
 
 t.Show();
 ```
+
+Jail wurde besonders auf Effizienz optimiert. In Performance-Tests hat sich gezeigt, dass Jail nur 1.5-mal langsamer als C ist, was beeindruckend schnell ist.
+
+ * Python (10–50 Mal langsamer als C) 
+ * JavaScript (10–50 Mal langsamer als C)
+ * Ruby (20–100 Mal langsamer als C) 
+ * PHP (10–50 Mal langsamer als C) 
+
+Im Vergleich zu C, das für seine hohe Ausführungsgeschwindigkeit bekannt ist, bietet Jail somit eine bemerkenswert schnelle Leistung und eignet sich hervorragend für rechenintensive Aufgaben.
