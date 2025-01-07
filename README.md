@@ -6,7 +6,7 @@ JAIL is a [general purpose scripting language](https://en.wikipedia.org/wiki/Gen
 ## Features
  * Dynamically typed
  * Object oriented
- * extendable in c/c++          [Wiki -> Plugins](wiki/plugins)
+ * extendable in c/c++          [Wiki -> Plugins](https://gothub.com/zarat/jail/wiki/plugins)
 
 ## Example
 ```Javascript
